@@ -1,0 +1,67 @@
+body {
+  background-color: #F6FFD6;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: arial, sans-serif;
+  color: orangered;
+}
+
+.tooltip {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 120px;
+  height: 45px;
+  padding-top: 5px;
+  background: lightgrey;
+  background-opacity: 20%;
+  box-shadow: 1px 1px 10px;
+  border-radius: 1px;
+  pointer-events: none;
+  font-family: Verdana;
+  font-size: 15px;
+}
+
+.bar {
+  fill: orange;
+}
+.bar:hover {
+  fill: orangered ;
+}
+
+.chart {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.x-axis path,
+.x-axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+    stroke-width: 1px;
+}
+.x-axis text {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.y-axis path,
+.y-axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+  stroke-width: 1px;
+}
+.y-axis text {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.footer {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
